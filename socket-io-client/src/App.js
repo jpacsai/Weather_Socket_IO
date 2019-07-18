@@ -15,7 +15,6 @@ class App extends React.Component {
 
   render() {
     const { response } = this.state;
-    console.log('rerendered :D');
     return (
       <div style={{ textAlign: "center" }}>
         {response
